@@ -1,5 +1,4 @@
 @echo off
-cd /d "C:\Users\Estudiante UCU\Repositorios\ImpresoraNumerosMC"
-python main.py
-start python ventana.py
-exit
+cd /d "%~dp0"
+python ventana.py
+pause
